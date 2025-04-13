@@ -101,7 +101,7 @@ if (isset($_SESSION['response'])) {
         </form>
         <?php
         if (isset($response)) {
-            echo "<div class='result'>";
+            echo "<div class='result' style='word-break: break-word;'>";
             if (isset($response['error']) && $response['error'] === true) {
                 echo "<p><strong>Error:</strong> " . htmlspecialchars($response['response']) . "</p>";
                 echo "❌ Your OpenAlias DNS TXT records seem to be invalid.";
@@ -140,7 +140,7 @@ if (isset($_SESSION['response'])) {
             <p>To learn more, check out the <a href="https://openalias.org/#implement" target="_blank" rel="noopener noreferrer">OpenAlias implementation guide</a>.</p>
 
             <h4>Example OpenAlias TXT Record for Bitcoin:</h4>
-            <pre>oa1:btc recipient_address=bc1q33pgz4dsal3h2ahkhe8ty0e7z32ttteyz4tx2d; recipient_name=OpenAliasChecker; tx_description=Donate to OpenAlias Checker</pre>
+            <code style="word-break: break-word;">oa1:btc recipient_address=bc1q33pgz4dsal3h2ahkhe8ty0e7z32ttteyz4tx2d; recipient_name=OpenAliasChecker; tx_description=Donate to OpenAlias Checker</code>
 
             <h3>Do you log the domains I check?</h3>
             <p>No, we do not log the domain(s) you check on this site. However, your IP address may be temporarily logged by our web server for abuse prevention purposes.</p>
