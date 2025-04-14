@@ -95,7 +95,7 @@ if (isset($_SESSION['response'])) {
         <h1>OpenAlias Domain Checker</h1>
         <p>A simple and free tool to check OpenAlias configurations.</p>
         <form method="post">
-            <label for="domain">Enter Domain Name:</label><br><br>
+            <label for="domain">Enter Domain Name (e.g. getmonero.org):</label><br><br>
             <input type="text" id="domain" name="domain" placeholder="example.com" required>
             <input type="submit" value="Check OpenAlias">
         </form>
