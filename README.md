@@ -1,6 +1,7 @@
 # OpenAliasChecker
 
-A simple and free tool to check OpenAlias configurations.
+A simple, open-source, client-side tool to check OpenAlias configurations.
+
 
 ## Online Version
 
@@ -8,23 +9,24 @@ A simple and free tool to check OpenAlias configurations.
 
 ## Run Locally
 
-To run the site locally, configure a web server (such as Apache or Nginx) with PHP support and navigate to the local address in your browser.
+Download or clone this repository, then open `index.html` in your web browser.
 
-A JavaScript-based version is planned, which will make it easier to run locally or host on GitHub Pages without needing PHP.
 
 ## Usage
 
-Enter the domain you'd like to check. The tool will query Google's DNS server to look for OpenAlias-related TXT records and display the result.
+Enter the domain you'd like to check. This tool queries Cloudflare or Google's DNS servers for OpenAlias-related TXT records, checks for DNSSEC, and displays the result.
+
 
 ### Donate
 
-If you found this tool useful, consider supporting it through one of the following:
+If you found this tool useful, consider supporting it through one of the following methods:
 
 - [Buy Me a Coffee](https://www.buymeacoffee.com/tech1k)
 - Bitcoin: `bc1q33pgz4dsal3h2ahkhe8ty0e7z32ttteyz4tx2d`
 - Litecoin: `ltc1q49qxt7zllrzzejvu8sy344vtnfw4a5yk6rjndk`
 - Monero (XMR): `4AjmsjSoVXF6TJgVfu4i4r1XfBqt76hVZRFPUqrmoATERZ65u2oDBdEFuZTd6wqL2MTTGEgV8456xEXMMBUEaEP6EShonnC`
 - OpenAlias (BTC, LTC, XMR): openaliaschecker.com or tech1k.com
+
 
 ## License
 

@@ -46,8 +46,10 @@ input[type="submit"] {
 }
 
 .result {
+	display: none;
 	margin-top: 20px;
 	padding: 15px;
 	background-color: #4c4c4c;
 	border: 1px solid #ddd;
+	word-break: break-word;
 }
